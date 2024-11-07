@@ -16,7 +16,7 @@ function itemFromTemplate(item) {
     <td>${item.id}</td>
       <td>${item.name}</td>
     <td>${item.price}</td>
-    <td><input type="button" value="Delete" onclick="delete_item(${item.id})"></td>
+    <td><input type="button" value="Delete" onclick="delete_item('${item.id}')"></td>
   </tr>`;
 }
 
